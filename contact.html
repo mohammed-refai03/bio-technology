@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stackly | Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    
+</head>
+<body>
+
+    <header class="navbar">
+
+<div class="nav-container">
+
+    <!-- LOGO -->
+    <div class="logo">
+        <a href="index.html">
+            <img src="assets/logo.webp" alt="Logo">
+        </a>
+    </div>
+
+    <!-- NAV -->
+    <nav>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+            <!-- MOBILE LOGIN -->
+            <li class="mobile-login">
+                <a href="login.html" class="btn-primary">Login</a>
+            </li>
+        </ul>
+    </nav>
+
+    <a href="login.html" class="btn-primary desktop-login">Login</a>
+
+  
+    <div class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+</div>
+
+</header>
+    <main class="main-contact">
+        <section class="contact-upper">
+            <div class="container">
+                <div class="split-layout">
+                    <div class="content-side reveal">
+                        <div class="status-pill">Available for Collaboration</div>
+                        <h1 class="main-title">Let’s Start a <br><span>Scientific Journey.</span></h1>
+                        <p class="desc">Our laboratory is equipped to handle complex biotech challenges and genomic sequencing.</p>
+                        <div class="quick-links">
+                            <div class="q-box"><span>Support:</span><strong>help@bionova.lab</strong></div>
+                            <div class="q-box"><span>Careers:</span><strong>jobs@bionova.lab</strong></div>
+                        </div>
+                    </div>
+
+                    <div class="visual-side reveal">
+                        <div class="image-wrapper">
+                            <img src="assets/lab5.webp" alt="Lab">
+                            <div class="floating-contact-card">
+                                <h3>Send a Message</h3>
+                                <form id="premiumForm">
+                                    <input type="text" placeholder="Name" required>
+                                    <input type="email" placeholder="Email" required>
+                                    <select><option>Genomics</option><option>Drug Discovery</option></select>
+                                    <textarea placeholder="Your message..." rows="3"></textarea>
+                                    <button class="prime-btn">Submit Proposal</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-lower reveal">
+            <div class="container">
+                <div class="details-grid">
+                    <div class="detail-card"><i class="fa-solid fa-location-dot"></i><h4>Salem, Tamil Nadu</h4><p>Stackly</p></div>
+                    <div class="detail-card"><i class="fa-solid fa-microscope"></i><h4>Research Hours</h4><p>Mon - Sat: 08:00 - 19:00</p></div>
+                    <div class="detail-card">
+        <i class="fa-solid fa-vials"></i>
+        <h4>Advanced Diagnostics</h4>
+        <p>Precision molecular testing and genomic reporting</p>
+    </div>
+                    <div class="detail-card"><i class="fa-solid fa-dna"></i><h4>24/7 Support</h4><p>For Enterprise Partners</p></div>
+                </div>
+            </div>
+        </section>
+        <section class="premium-map-section reveal">
+    <div class="container">
+        <div class="map-wrapper">
+            <iframe 
+               src="https://www.google.com/maps?q=MMR+Complex,+Chinna+Thirupathi,+near+Chinna+Muniyappan+Kovil,+Salem,+Tamil+Nadu+636008&output=embed"   
+            width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-col">
+            <img src="assets/logo.webp" alt="Logo" class="footer-logo">
+            <p class="footer-desc">
+                Building modern digital experiences with precision and passion. Your success is our mission.
+            </p>
+        </div>
+
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+                <li><a href="404.html">Consulting</a></li>
+                <li><a href="404.html">Research</a></li>
+                <li><a href="404.html">Development</a></li>
+                <li><a href="404.html">Support</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+                <a href="404.html"><i class="fab fa-facebook-f"></i></a>
+                <a href="404.html"><i class="fab fa-twitter"></i></a>
+                <a href="404.html"><i class="fab fa-instagram"></i></a>
+            
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 YourBrand. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
